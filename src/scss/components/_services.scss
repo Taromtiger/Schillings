@@ -1,0 +1,138 @@
+.services {
+  margin-bottom: 50px;
+  &__wrapper {
+    display: flex;
+  }
+
+  &__info {
+    margin-right: 25px;
+    padding: 176px 30px 342px 25px;
+    width: 100%;
+    max-width: 460px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: $font-h2;
+    line-height: 1.1;
+    color: $green-100;
+  }
+
+  &__text {
+    margin-bottom: 35px;
+  }
+
+  &__btn {
+    border: 1px solid $green-200;
+    border-radius: $btn-border-radius;
+    padding: 13px 45px 13px 25px;
+    color: $green-300;
+  }
+
+  &__box {
+    display: flex;
+    padding-top: 180px;
+  }
+
+  &__box-left {
+    padding: 60px 26px 342px 25px;
+    width: 80px;
+    font-size: 21px;
+    color: $white;
+    background-color: $green-300;
+  }
+
+  &__legal {
+    padding-top: 52px;
+    padding-right: 40px;
+    padding-bottom: 254px;
+    padding-left: 40px;
+    width: 100%;
+    max-width: 600px;
+    background-color: $green-300;
+  }
+
+  &__legal-title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.32;
+    letter-spacing: 0.56px;
+    color: $white;
+  }
+
+  &__legal-subtitle {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25px;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__list {
+    column-count: 2;
+    column-gap: 60px;
+    flex-direction: column;
+    margin-bottom: 38px;
+  }
+
+  &__item {
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 0.13px;
+    color: $white;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  &__legal-btn {
+    position: relative;
+    border: 1px solid $white;
+    border-radius: 100px;
+    padding: 13px 45px 13px 25px;
+    color: $white;
+  }
+
+  &__legal-btn::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    width: 11px;
+    height: 8px;
+    background-image: url("../../img/icons/arrow-right.svg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__intelligence,
+  &__communications,
+  &__risk {
+    padding: 60px 25px 0;
+    width: 80px;
+    font-size: 21px;
+  }
+
+  &__intelligence {
+    margin-top: 120px;
+    color: $white;
+    background-color: $green-100;
+  }
+
+  &__communications {
+    margin-top: 60px;
+    color: $green-300;
+    background-color: $green-200;
+  }
+
+  &__risk {
+    color: $white;
+    background-color: $grey;
+  }
+}
