@@ -97,6 +97,10 @@ li:not(:last-child) {
   color: $white;
 }
 
+span {
+  display: block;
+}
+
 .intelligence,
 .communications,
 .risk {
